@@ -1,0 +1,36 @@
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img, h1 {
+    display: inline;
+    vertical-align: middle; /* Điều chỉnh căn giữa theo chiều dọc */
+    height: 50px;
+}
+
+#oneline img{
+    display: inline;
+}
+.container{
+    font-size: large;
+    color: rgb(254, 254, 254);
+    margin: auto;
+    width: 900px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+body{
+    background-color: rgb(32, 32, 45);
+    background-image: url(img/starry-night-sky-reflection-background-hd-wallpaper-sr10012425-1705222416280-cover.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.mid .pic_profile{
+  border-radius: 50%;
+  height: 270px; 
+  width: 270px;
+}
