@@ -1,6 +1,7 @@
 .header{
     text-align: center;
     margin-bottom: 20px;
+
 }
 
 .header img, h1 {
@@ -16,7 +17,7 @@
     font-size: large;
     color: rgb(254, 254, 254);
     margin: auto;
-    max-width: 100%;
+    width: 1200px;
     padding-top: 10px;
     padding-left: 40px;
     padding-right: 40px;
