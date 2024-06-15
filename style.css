@@ -16,10 +16,11 @@
     font-size: large;
     color: rgb(254, 254, 254);
     margin: auto;
-    width: 900px;
+    max-width: 100%;
     padding-top: 10px;
     padding-left: 40px;
     padding-right: 40px;
+    height: auto;
     
 }
 
