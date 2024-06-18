@@ -1,17 +1,25 @@
+
 .header{
     text-align: center;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
     
 }
 
 .header img, h1 {
-    display: inline;
+    display: flex;
     vertical-align: middle; /* Điều chỉnh căn giữa theo chiều dọc */
     height: 50px;
+
+}
+.header img{
+    margin-top: 20px;
 }
 
 .container{
-    font-size: large;
+    flex-direction: column;
     color: rgb(254, 254, 254);
     margin: auto;
     width: 1150px;
@@ -30,7 +38,10 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
 .mid .pic_profile{
+    text-align: center;
+    align-items: center;
     display: flex;
     border-radius: 50%;
     height: 270px; 
