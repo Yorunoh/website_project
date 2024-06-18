@@ -26,6 +26,8 @@
 }
 
 body{
+    display: flex;
+    margin: 0px;
     background-color: rgb(32, 32, 45);
     background-image: url(img/starry-night-sky-reflection-background-hd-wallpaper-sr10012425-1705222416280-cover.jpg);
     background-attachment: fixed;
@@ -63,4 +65,8 @@ body{
     color: rgb(0, 0, 0);
 }
 
+/*
+.nav-bar{
+}
+*/
 
