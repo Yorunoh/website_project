@@ -47,6 +47,9 @@ body{
     height: 270px; 
     width: 270px;
 }
+.mid{
+    font-size: larger;
+}
 
 .button-17 {
     border-color: rgb(36, 217, 157);
@@ -56,6 +59,7 @@ body{
     height: 30px;
 }
 
+/*
 .button-18{
     border-color: rgb(36, 217, 157);
     border-radius: 20px;
@@ -63,11 +67,13 @@ body{
     height: 30px;
     background: rgba(27,31,35,255);
 }
+
 .button-18 img{
     border-radius: 20px;
     display: block;
     width: 25px;
 }
+*/
 
 .button-17:hover{
     background-color:rgba(241, 239, 237, 0.805);
