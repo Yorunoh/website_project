@@ -38,6 +38,9 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+.error{
+    color: #FF0000;
+}
 
 .mid .pic_profile{
     text-align: center;
