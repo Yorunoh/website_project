@@ -55,42 +55,7 @@
                     </a>
                 
                 </li>
-                <?php
-                    $name="";
-                    $nameErr="";
-                    $result ="";
-                    
-                    function test_input($data){
-                        $data = trim($data);
-                        $data = stripslashes($data);
-                        $data = htmlspecialchars($data);
-                        return $data;
-                    }
-                    
-                    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                        if (empty($_POST["name"])) {
-                          $nameErr = "* Name is required";
-                        } else {
-                          $name = test_input($_POST["name"]);
-                          
-                          if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-                            $nameErr = "Only letters and white space allowed";
-                          }else{
-                            $result ="fuck you ". $name;
-                          }
-                        }
-                    }
-            ?>
-                    
-                    <br>
-                <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-                    Your name: <input type="text" name="name" value="<?php echo $name;?>">
-                    <span class="error"><?php echo $nameErr;?></span>
-                    <input type="submit" name="submit" value="submit" class="button-17">
-                </form>
-                <?php
-                    echo $result;
-                ?>
+                
               </ul>
             <h4>I'll definitely update this website, although not regulary but i'll definitely do it. Pls looking forward</h4>
         </div>
