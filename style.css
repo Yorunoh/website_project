@@ -34,7 +34,7 @@ body{
     display: flex;
     margin: 0px;
     background-color: rgb(32, 32, 45);
-    background-image: url(https://github.com/Yorunoh/website_project/blob/main/img/starry-night-sky-reflection-background-hd-wallpaper-sr10012425-1705222416280-cover.jpg);
+    background-image: url(img/starry-night-sky-reflection-background-hd-wallpaper-sr10012425-1705222416280-cover.jpg);
     background-attachment: fixed;
     background-size: cover;
 }
